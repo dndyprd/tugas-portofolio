@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dandy Pradnyana</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/style.css" />
 </head>
+
 <body>
     <nav>
+        <div class="logo">
+            <h3>Dandy Pradnyana</h3>
+        </div>
         <ul>
             <a href="#beranda">
                 <li>Beranda</li>
             </a><a href="#tentang">
                 <li>Tentang</li>
+            </a><a href="#blog">
+                <li>Blog</li>
             </a><a href="#keahlian">
                 <li>Keahlian</li>
             </a><a href="#proyek">
                 <li>Proyek</li>
-            </a><a href="./blog.html">
-                <li>Blog</li>
             </a><a href="#kontak">
                 <li>Kontak</li>
             </a>
@@ -26,91 +31,171 @@
     </nav>
     <section class="beranda" id="beranda">
         <div class="container">
-            <img src="assets/profile.jpg" alt="Dandy Pradnyana" width="150px">
-            <h1>Dandy Pradnyana</h1> 
-            <a href="./blog.html" class="btn">Lihat Blog</a>
+            <img src="assets/profile.jpg" alt="Dandy Pradnyana" width="150px" />
+            <div class="content">
+                <h1>Dandy Pradnyana</h1>
+                <p>
+                    Front-end Web Developer | Back-end Web Developer | Game
+                    Developer | Graphic Designer
+                </p>
+                <div class="btn">
+                    <a href="#tentang">Lihat Selengkapnya</a>
+                </div>
+            </div>
         </div>
     </section>
-    <hr>
     <section class="tentang" id="tentang">
         <div class="container">
             <h2>Tentang Saya</h2>
-            <p>Halo saya Dandy Pradnyana, seorang mahasiswa Teknologi Informasi di Politeknik Negeri Bali. Saya memiliki minat yang besar dalam pengembangan perangkat lunak khususnya pada pembuatan website dan game.</p>
+            <p>
+                Halo saya Dandy Pradnyana, seorang mahasiswa Teknologi Informasi di Politeknik Negeri Bali. Saya
+                memiliki minat yang besar dalam pengembangan perangkat lunak khususnya pada pembuatan website dan juga
+                game development. Saat ini saya sedang bergabung sebagai tim publikasi di jurusan Teknologi Informasi
+                dan juga menjadi bagian dari Himpunan Mahasiswa Jurusan Teknologi Informasi Politeknik Negeri Bali.
+            </p>
+            <p>
+                Saya memiliki pengalaman dalam menggunakan berbagai bahasa pemrograman seperti HTML, CSS, JavaScript,
+                PHP, Python, dan juga beberapa framework seperti Tailwind, Laravel dan React. Selain itu, saya juga
+                memiliki pengalaman dalam pengembangan game menggunakan Construct 3 dan Unity. Saya juga mendapatkan
+                sertifikasi "Junior Programmer" dari hasil Ujian Kompetensi Nasional (UKK) yang diadakan oleh LSP SMK
+                Negeri 1 Denpasar dengan status "Sangat Kompeten".
+            </p>
         </div>
     </section>
-    <hr>
+    <section class="blog" id="blog">
+        <div class="container">
+            <h2>Blog</h2>
+            <div class="content">
+                <div class="box">
+                    <h3>Materi HTML</h3>
+                    <h5>Jumat, 11 April 2025</h5>
+                    <p>Tugas membuat Blog.</p>
+                    <a href="./blog/materi-html.html">Baca Selengkapnya</a>
+                </div>
+                <div class="box">
+                    <h3>Latihan Form</h3>
+                    <h5>Jumat, 16 Mei 2025</h5>
+                    <p>Latihan membuat form.</p>
+                    <a href="./blog/form.html">Baca Selengkapnya</a>
+                </div>
+                <div class="box">
+                    <h3>Belajar CSS</h3>
+                    <h5>Jumat, 16 Mei 2025</h5>
+                    <p>Latihan menggunakan CSS.</p>
+                    <a href="./blog/belajar-css/index.html">Baca Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="keahlian" id="keahlian">
         <div class="container">
             <h2>Keahlian</h2>
-            <div class="keahlian-list">
-                <div class="keahlian-item">
+            <div class="content">
+                <div class="box">
                     <h3>HTML & CSS</h3>
-                    <p>Mampu mendesain tampilan web yang menarik dan responsif.</p>
-                </div> 
-                <div class="keahlian-item">
+                    <p>
+                        Mampu mendesain tampilan web yang menarik dan responsif.
+                    </p>
+                </div>
+                <div class="box">
                     <h3>JavaScript</h3>
-                    <p>Pengalaman dalam membuat interaksi dinamis pada halaman web.</p>
+                    <p>
+                        Pengalaman dalam membuat interaksi dinamis pada halaman
+                        web.
+                    </p>
                 </div>
-                <div class="keahlian-item">
+                <div class="box">
                     <h3>PHP</h3>
-                    <p>Pengalaman dalam pengembangan backend menggunakan PHP.</p>
+                    <p>
+                        Pengalaman dalam pengembangan backend menggunakan PHP.
+                    </p>
                 </div>
-                <div class="keahlian-item">
+                <div class="box">
                     <h3>Python</h3>
-                    <p>Pengalaman dalam pengembangan aplikasi desktop dan web.</p>
+                    <p>
+                        Pengalaman dalam pengembangan aplikasi desktop dan web.
+                    </p>
                 </div>
-                <div class="keahlian-item">
+                <div class="box">
                     <h3>Game Development</h3>
-                    <p>Pengalaman dalam pengembangan game menggunakan Construct 3 dan Unity.</p>
-                </div> 
-                <div class="keahlian-item">
+                    <p>
+                        Pengalaman dalam pengembangan game dengan Construct
+                        3 dan Unity.
+                    </p>
+                </div>
+                <div class="box">
                     <h3>MySQL</h3>
-                    <p>Pengalaman dalam mengelola database menggunakan MySQL dan MongoDB.</p>
-                </div>  
-                <div class="keahlian-item">
+                    <p>
+                        Pengalaman dalam mengelola database menggunakan MySQL
+                        dan MongoDB.
+                    </p>
+                </div>
+                <div class="box">
                     <h3>React</h3>
-                    <p>Pengalaman dalam pengembangan aplikasi web menggunakan React.</p>
-                </div> 
-                <div class="keahlian-item">
+                    <p>
+                        Pengalaman dalam pengembangan aplikasi web menggunakan
+                        React.
+                    </p>
+                </div>
+                <div class="box">
                     <h3>Laravel</h3>
-                    <p>Pengalaman dalam pengembangan aplikasi web menggunakan Laravel.</p>
-                </div> 
+                    <p>
+                        Pengalaman dalam pengembangan aplikasi web menggunakan
+                        Laravel.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
-    <hr>
     <section class="proyek" id="proyek">
         <div class="container">
             <h2>Proyek</h2>
-            <div class="proyek-list">
-                <div class="proyek-item">
+            <div class="content">
+                <div class="box">
                     <h3>Website Portofolio</h3>
-                    <p>Website ini adalah portofolio pribadi saya yang menampilkan keahlian dan proyek yang telah saya kerjakan.</p>
+                    <p>
+                        Website ini adalah portofolio pribadi saya yang
+                        menampilkan keahlian dan proyek yang telah saya
+                        kerjakan.
+                    </p>
                 </div>
-                <div class="proyek-item">
+                <div class="box">
                     <h3>Game Edukasi</h3>
-                    <p>Sebuah game edukasi yang membantu anak-anak belajar matematika dengan cara yang menyenangkan.</p>
+                    <p>
+                        Sebuah game edukasi yang membantu anak-anak belajar
+                        matematika dengan cara yang menyenangkan.
+                    </p>
                 </div>
-                <div class="proyek-item">
+                <div class="box">
                     <h3>Aplikasi Manajemen Tugas</h3>
-                    <p>Aplikasi web untuk membantu pengguna mengelola tugas dan jadwal mereka dengan lebih efisien.</p>
+                    <p>
+                        Aplikasi web untuk membantu pengguna mengelola tugas dan
+                        jadwal mereka dengan lebih efisien.
+                    </p>
                 </div>
             </div>
         </div>
-    </section> 
-    <hr>
+    </section>
+    <hr />
     <section class="kontak" id="kontak">
         <div class="container">
-            <h2>Kontak</h2>
-            <form action="">
-                <p>Nama : <input type="text" name="nama"></p>
-                <p>Email : <input type="email" name="email"></p>
-                <p>Pesan : <textarea name="pesan"></textarea></p>
-                <button>Kirim</button>
-            </form>
+            <h2>Kontak</h2> 
+            <div class="form">
+                <form action="">
+                    <p>Nama : </p>
+                    <input type="text" name="nama" />
+                    <p>Email : </p>
+                    <input type="email" name="email" />
+                    <p>Pesan : </p>
+                    <textarea name="pesan"></textarea><br>
+                    <button>Kirim</button>
+                </form>
+            </div>  
+        </div>
+        <div class="cc">
+            <p>Copyright © 2025 - Dandy Pradnyana</p>
         </div>
     </section>
-    <hr>
-    <p>Copyright © 2025 - Dandy Pradnyana</p>
 </body>
+
 </html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <h1>Form Input Data Mahasiswa</h1> 
+    <form>
+        Nama : <br><input type="text" name="nama"><br>
+        Email : <br><input type="email" name="email"><br>
+        Alamat : <br><textarea name="alamat"></textarea><br>
+        Jenis Kelamin : <br>
+        <input type="radio" name="jk" value="Laki-laki"> Laki-laki <br>
+        <input type="radio" name="jk" value="Perempuan"> Perempuan <br>
+        Agama : <br>
+        <select name="agama">
+            <option value="Islam">Islam</option>
+            <option value="Kristen">Kristen</option>
+            <option value="Katolik">Katolik</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Buddha">Buddha</option>
+            <option value="Konghucu">Konghucu</option>
+        </select><br>
+        Hobi : <br>
+        <input type="checkbox" name="hobi" value="Olahraga"> Olahraga <br>
+        <input type="checkbox" name="hobi" value="Menonton Youtube"> Menonton Youtube <br>
+        <input type="checkbox" name="hobi" value="Membaca"> Membaca <br>
+        <input type="checkbox" name="hobi" value="Bersepeda"> Bersepeda <br>
+        Password : <br><input type="password" name="password"><br>
+        <button name="simpan" type="submit">Simpan</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
